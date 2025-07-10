@@ -7,7 +7,7 @@ from utils.utils import FRONTEND_URL
 app = FastAPI()
 
 origins = [
-    "https://auditorium-booking-system-frontend.vercel.app/",
+    "https://auditorium-booking-system-frontend.vercel.app",
 ]
 
 app.add_middleware(
